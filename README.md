@@ -4,14 +4,19 @@
 
 ## Установка
 
-1. Скопируйте папку `dockswitcher` в любое постоянное место, например `~/dockswitcher`.
-2. Сделайте скрипт исполняемым:
+1. Установить dockutil
+```bash
+brew install dockutil
+```
+
+2. Скопируйте папку `dockswitcher` в любое постоянное место, например `~/dockswitcher`.
+3. Сделайте скрипт исполняемым:
 
 ```bash
 chmod +x ~/dockswitcher/switch_dock.sh
 ```
 
-3.	Установите Hammerspoon и создайте/отредактируйте ~/.hammerspoon/init.lua:
+4.	Установите Hammerspoon и создайте/отредактируйте ~/.hammerspoon/init.lua:
 
 ```lua
 hs.hotkey.bind({"cmd"}, ";", function()
@@ -19,7 +24,9 @@ hs.hotkey.bind({"cmd"}, ";", function()
 end)
 ```
 
-4. Перезагрузка конфига
+5. Перезагрузка конфига
 ```h
 hs.reload()
 ```
+
+## Работает на Mac OS Tahoes
