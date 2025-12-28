@@ -9,7 +9,7 @@
 brew install dockutil
 ```
 
-2. Скопируйте папку `dockswitcher` в любое постоянное место, например `~/dockswitcher`.
+2. Скопируйте файлы в папку `dockswitcher` в любое постоянное место, например `~/dockswitcher`.
 3. Сделайте скрипт исполняемым:
 
 ```bash
@@ -29,4 +29,4 @@ end)
 hs.reload()
 ```
 
-## Работает на Mac OS Tahoes
+## Работает на Mac OS Tahoe
